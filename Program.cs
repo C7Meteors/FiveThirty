@@ -13,7 +13,7 @@ namespace FiveThirty
             string itIsOrNot = null;
 
             int currentHour = DateTime.Today.Hour;
-            int currentMinute = DateTime.Today.Hour;
+            int currentMinute = DateTime.Today.Minute;
 
             if(currentHour == 5 && currentMinute == 30)
             {
